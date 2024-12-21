@@ -1,5 +1,5 @@
 /* include header */
-fetch("/include/header.html")
+fetch("/clone-class101/include/header.html")
 .then(response => response.text())
 .then(data => {
   document.querySelector('.header-include').innerHTML = data;
@@ -79,7 +79,7 @@ function headerLoginAfter(){
 };
 
 /* Include Footer */
-fetch("/include/footer.html")
+fetch("/clone-class101/include/footer.html")
 .then(response => response.text())
 .then(data=> {
   document.querySelector(".footer-include").innerHTML = data
